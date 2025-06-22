@@ -1,0 +1,30 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+        background: linear-gradient(to right, lab(83.21% 5.73 84.54), purple);
+
+  }
+  
+  .nav-buttons {
+
+    gap:16px;
+  }
+  
+  .nav-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-icon:hover {
+    transform: scale(1.2);
+    background-color: rgba(218, 218, 218, 0.1);
+  }
+  
+  .store-button {
+    border: 1px solid white;
+    padding: 6px 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .store-button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
